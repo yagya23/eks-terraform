@@ -47,7 +47,7 @@ run below command on your terminal to configure credentials
 $ aws configure
 AWS Access Key ID [None]: xxxxxxxxxxxxx  
 AWS Secret Access Key [None]: xxxxxxxxxxxxx
-Default region name [None]: us-east-1    # spiecify region
+Default region name [None]: us-east-1    # specify region
 Default output format [None]: json        # specify output format
 ```
 # Run instructions
@@ -64,14 +64,14 @@ terraform apply    # create resources on terraform
 
 To get URL from external load balancer, 
 ```
-kubectl get svc -n Default
+kubectl get svc -n default
 ```
 Grep url of loadbalancer and run on your browser.
 
 
 List Storage Class , PVC , PV. 
 ```
-kubectl get sc,pvc,pvc
+kubectl get sc,pv,pvc
 ```
 
 List nginx-ingress-controller
