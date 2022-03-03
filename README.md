@@ -18,7 +18,6 @@ This repository contains terraform code to spin up EKS cluster. Apart from it, i
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~>= 0.15 |
 
-jlkjkj 'l';l';l
 
 ## Providers
 
